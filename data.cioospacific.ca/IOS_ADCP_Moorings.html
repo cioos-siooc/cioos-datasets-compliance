@@ -241,8 +241,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
-      <p align="center">For dataset /tmp/cc_erddap/mpoMaritimeStJohnCTD.nc</p>
-      <p align="center">Report generated 2022-09-15T22:10:05Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/IOS_ADCP_Moorings.nc</p>
+      <p align="center">Report generated 2022-09-15T22:06:19Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -269,7 +269,7 @@ li{
         <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">1</span>
+        | <span class="label label-danger label-as-badge">3</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -297,16 +297,21 @@ li{
 
 
               <tr>
-                    <td>§3.1 Units</td>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§3.3 Standard Name</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units for density_anomaly, &#34;kilograms per cubic meter&#34; are not recognized by UDUNITS</li>
+                          <li>standard_name platform_pitch is not defined in Standard Name Table v55. Possible close match(es): [&#39;platform_pitch_rate&#39;, &#39;platform_pitch_angle&#39;, &#39;platform_id&#39;]</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units for sea_water_turbidity, &#34;NTU&#34; are not recognized by UDUNITS</li>
+                          <li>standard_name platform_roll is not defined in Standard Name Table v55. Possible close match(es): [&#39;platform_roll_rate&#39;, &#39;platform_roll_angle&#39;, &#39;platform_id&#39;]</li>
                         </ul>
 
                         </td>
@@ -314,7 +319,41 @@ li{
 
 
               <tr>
-                    </td>
+                    <td>§3.4 Ancillary Data</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>PRESPR01_QC is not a variable in this dataset</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§3.5 Flags</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>flag_values (&lt;class &#39;numpy.int32&#39;&gt;) must be the same data type as LCEWAP01 (&lt;class &#39;numpy.float32&#39;&gt;)</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>flag_values (&lt;class &#39;numpy.int32&#39;&gt;) must be the same data type as LCNSAP01 (&lt;class &#39;numpy.float32&#39;&gt;)</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>flag_values (&lt;class &#39;numpy.int32&#39;&gt;) must be the same data type as LRZAAP01 (&lt;class &#39;numpy.float32&#39;&gt;)</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>flag_values (&lt;class &#39;numpy.int32&#39;&gt;) must be the same data type as PRESPR01 (&lt;class &#39;numpy.float32&#39;&gt;)</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
@@ -376,7 +415,7 @@ li{
         <a data-target="medium-priority-table" href="#"> Warnings <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">1</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
       <div class="medium-priority-table collapse in">
         <table class="table">
@@ -389,21 +428,21 @@ li{
 
           <tbody>
             <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
                     <td>§2.3 Naming Conventions</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute site_name:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute filename:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute record_id:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute DTUT8601:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>global attribute _FillValue should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         </td>
@@ -421,7 +460,14 @@ li{
 
 
               <tr>
-                    </td>
+                    <td>§2.6 Attributes</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>§2.6.1 Conventions global attribute does not contain &#34;CF-1.6&#34;</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 

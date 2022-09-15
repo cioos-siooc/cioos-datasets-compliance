@@ -241,8 +241,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
-      <p align="center">For dataset /tmp/cc_erddap/mpoMaritimeStJohnCTD.nc</p>
-      <p align="center">Report generated 2022-09-15T22:10:05Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/HakaiQU5MMooringProvisional.nc</p>
+      <p align="center">Report generated 2022-09-15T22:07:33Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -297,16 +297,16 @@ li{
 
 
               <tr>
-                    <td>§3.1 Units</td>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§3.3 Standard Name</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units for density_anomaly, &#34;kilograms per cubic meter&#34; are not recognized by UDUNITS</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units for sea_water_turbidity, &#34;NTU&#34; are not recognized by UDUNITS</li>
+                          <li>standard_name aggregate_quality_flag is not defined in Standard Name Table v70. Possible close match(es): [&#39;quality_flag&#39;]</li>
                         </ul>
 
                         </td>
@@ -376,7 +376,7 @@ li{
         <a data-target="medium-priority-table" href="#"> Warnings <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">1</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
       <div class="medium-priority-table collapse in">
         <table class="table">
@@ -389,21 +389,21 @@ li{
 
           <tbody>
             <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
                     <td>§2.3 Naming Conventions</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute site_name:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute station:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute record_id:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute airtemp_qc:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute watertemp_qc:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         </td>
@@ -437,6 +437,18 @@ li{
 
               <tr>
                     </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§7.3 Cell Methods</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>time&#39;s cell_methods name component time does not match a dimension, area or auxiliary coordinate</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 

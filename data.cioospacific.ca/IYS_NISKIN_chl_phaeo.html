@@ -241,8 +241,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
-      <p align="center">For dataset /tmp/cc_erddap/mpoMaritimeStJohnCTD.nc</p>
-      <p align="center">Report generated 2022-09-15T22:10:05Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/IYS_NISKIN_chl_phaeo.nc</p>
+      <p align="center">Report generated 2022-09-15T22:06:16Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -269,7 +269,7 @@ li{
         <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">1</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -297,16 +297,16 @@ li{
 
 
               <tr>
-                    <td>§3.1 Units</td>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§3.3 Standard Name</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units for density_anomaly, &#34;kilograms per cubic meter&#34; are not recognized by UDUNITS</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units for sea_water_turbidity, &#34;NTU&#34; are not recognized by UDUNITS</li>
+                          <li>standard_name mass_concentration_of_phaeopigments_in_sea_water is not defined in Standard Name Table v70. Possible close match(es): [&#39;mass_concentration_of_oxygen_in_sea_water&#39;, &#39;mass_concentration_of_phosphate_in_sea_water&#39;, &#39;mass_concentration_of_chlorophyll_in_sea_water&#39;]</li>
                         </ul>
 
                         </td>
@@ -334,12 +334,14 @@ li{
 
 
               <tr>
-                    </td>
-                  </tr>
+                    <td>§4.4 Time Coordinate</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>time2 does not have correct time units</li>
+                        </ul>
 
-
-              <tr>
-                    </td>
+                        </td>
                   </tr>
 
 
@@ -389,24 +391,44 @@ li{
 
           <tbody>
             <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
                     <td>§2.3 Naming Conventions</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute site_name:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute station:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute record_id:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute profile:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute cruise:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute time2:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute tube:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute region:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
                   </tr>
 
 

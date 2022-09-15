@@ -241,8 +241,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
-      <p align="center">For dataset /tmp/cc_erddap/mpoMaritimeStJohnCTD.nc</p>
-      <p align="center">Report generated 2022-09-15T22:10:05Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/adpu-nyt8.nc</p>
+      <p align="center">Report generated 2022-09-15T22:09:24Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -269,104 +269,18 @@ li{
         <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">1</span>
+        | <span class="label label-success label-as-badge">0</span>
       </div>
 
       <div class="high-priority-table collapse in">
         <table class="table">
-          <thead>
-            <tr>
-              <th class="cname">Name</th>
-              <th class="ccorrection">Reasoning</th>
-            </tr>
-          </thead>
           <tbody>
             <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    <td>§3.1 Units</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units for density_anomaly, &#34;kilograms per cubic meter&#34; are not recognized by UDUNITS</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units for sea_water_turbidity, &#34;NTU&#34; are not recognized by UDUNITS</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              </tbody>
+              <td>All high priority checks passed!</th>
+            </tr>
+          </tbody>
         </table>
-      </div> <!-- .high-priority-table -->
-
+      </div>
       </div> <!-- .col-md-12 -->
 
     <!-- Medium Priority -->
@@ -376,7 +290,7 @@ li{
         <a data-target="medium-priority-table" href="#"> Warnings <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">1</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
       <div class="medium-priority-table collapse in">
         <table class="table">
@@ -398,12 +312,27 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute site_name:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute waterbody_station:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute record_id:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute lease:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute sensor:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute deployment_start_date:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute deployment_end_date:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         </td>
@@ -442,6 +371,23 @@ li{
 
               <tr>
                     </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§9.1 Features and feature types</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Dissolved_Oxygen is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>sea_water_temperature is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
