@@ -23,6 +23,10 @@ jobs:
         run: pip install "git+https://github.com/cioos-siooc/erddap-compliance.git@support-datasets-without-max(time)"
       - name: Run script
         run: sh run_cioos.sh
+      - name: Generate Directory Listings
+        uses: jayanta525/github-pages-directory-listing@v2.0.0
+        with:
+          FOLDER: results
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
