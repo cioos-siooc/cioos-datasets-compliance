@@ -1,6 +1,8 @@
 # erddap-datasets-compliance
 
-A wrapper for [erddap-compliance](https://github.com/cioos-siooc/erddap-compliance), runs the [IOOS compliance checker](https://github.com/ioos/compliance-checker) on all datasets of a list of ERDDAP servers. Uses Github cronjobs and Gitpages to create reports nightly.
+A wrapper for [erddap-compliance](https://github.com/cioos-siooc/erddap-compliance), runs the [IOOS compliance checker](https://github.com/ioos/compliance-checker) on all datasets of a list of ERDDAP servers and uses Github cronjobs and Gitpages to create reports nightly.
+
+This repo consists of a [Github action](https://github.com/cioos-siooc/cioos-datasets-compliance/blob/main/.github/workflows/test_datasets.yaml) and a [list of erddap servers to run on](https://github.com/cioos-siooc/cioos-datasets-compliance/blob/main/erddap_servers)
 
 To run on an ERDDAP server:
 
