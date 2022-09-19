@@ -1,6 +1,6 @@
 # erddap-datasets-compliance
 
-Runs the IOOS compliance checker on all datasets of an ERDDAP server, using Github cronjobs and Gitpages to creates the reports nightly, or any interval.
+Runs the IOOS compliance checker on all datasets of an ERDDAP server. Uses Github cronjobs and Gitpages to create reports nightly.
 
 To run on an ERDDAP server:
 

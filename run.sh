@@ -1,3 +1,3 @@
 while read -r line; do
-    python -m erddap_compliance $line -v -f html
+    python -m erddap_compliance $line
 done <erddap_servers
