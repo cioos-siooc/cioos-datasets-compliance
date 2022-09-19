@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name = "erddap-datasets-compliace",
+    name = "erddap-datasets-compliance",
     install_requires=[
         'erddap-compliance@git+https://github.com/cioos-siooc/erddap-compliance',
     ],
