@@ -1,4 +1,4 @@
-# erddap-datasets-compliance
+# erddap-compliance-runner
 
 Runs the [IOOS compliance checker](https://github.com/ioos/compliance-checker) nightly on all datasets of a list of ERDDAP servers and publishes report to  Gitpages. Uses [erddap-compliance](https://github.com/cioos-siooc/erddap-compliance)
 
