@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - name: Install dependencies
-        run: pip install "git+https://github.com/cioos-siooc/erddap-compliance.git"
+        run: pip install "git+https://github.com/cioos-siooc/erddap-compliance.git@cioos"
       - name: Run script
         run: sh run.sh
       - name: Generate Directory Listings
