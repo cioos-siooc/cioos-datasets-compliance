@@ -1,6 +1,7 @@
 name: Run compliance checks
 
 on:
+  workflow_dispatch:
   push:
   schedule:
     # Runs at 2:01 UTC daily
