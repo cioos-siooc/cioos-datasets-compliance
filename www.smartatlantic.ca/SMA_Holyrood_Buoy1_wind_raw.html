@@ -242,7 +242,7 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
       <p align="center">For dataset /tmp/cc_erddap/SMA_Holyrood_Buoy1_wind_raw.nc</p>
-      <p align="center">Report generated 2022-12-11T02:30:35Z</p>
+      <p align="center">Report generated 2022-12-12T02:27:48Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -301,7 +301,12 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>Units &#34;None&#34; for variable relative_wind_direction must be convertible to canonical units &#34;degree&#34;</li>
+                          <li>units attribute is required for relative_wind_speed when variable is not a dimensionless quantity</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Units &#34;None&#34; for variable relative_humidity must be convertible to canonical units &#34;1&#34;</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -311,12 +316,7 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units attribute is required for relative_wind_speed when variable is not a dimensionless quantity</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Units &#34;None&#34; for variable relative_humidity must be convertible to canonical units &#34;1&#34;</li>
+                          <li>Units &#34;None&#34; for variable relative_wind_direction must be convertible to canonical units &#34;degree&#34;</li>
                         </ul>
 
                         </td>
@@ -508,7 +508,7 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
       <p align="center">For dataset /tmp/cc_erddap/SMA_Holyrood_Buoy1_wind_raw.nc</p>
-      <p align="center">Report generated 2022-12-11T02:30:35Z</p>
+      <p align="center">Report generated 2022-12-12T02:27:48Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -790,7 +790,7 @@ li{
         <a data-target="medium-priority-table" href="#"> Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">3</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
       <div class="medium-priority-table collapse in">
         <table class="table">
@@ -907,19 +907,7 @@ li{
 
 
               <tr>
-                    <td>geospatial_vertical_extents_match</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_vertical_min != min(altitude) values, -0.8999999761581421 != nan</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_vertical_max != max(altitude) values, -0.8999999761581421 != nan</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
