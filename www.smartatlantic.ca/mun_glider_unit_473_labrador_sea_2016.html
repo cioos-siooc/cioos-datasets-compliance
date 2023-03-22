@@ -241,8 +241,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
-      <p align="center">For dataset /tmp/cc_erddap/mun_glider_data_pearldiver_labrador_sea_2019.nc</p>
-      <p align="center">Report generated 2023-03-22T02:18:57Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/mun_glider_unit_473_labrador_sea_2016.nc</p>
+      <p align="center">Report generated 2023-03-22T02:20:31Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -326,7 +326,22 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
+                          <li>units for CO2_dphase, &#34;deg&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
                           <li>units for wpt_lat, &#34;degrees north&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for CO2_calphase, &#34;deg&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for pCO2, &#34;micro-atmospheres&#34; are not recognized by UDUNITS</li>
                         </ul>
 
                         </td>
@@ -393,6 +408,11 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
+                          <li>standard_name pco2_calphase is not defined in Standard Name Table v79.</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
                           <li>standard_name pitch is not defined in Standard Name Table v79. Possible close match(es): [&#39;depth&#39;]</li>
                         </ul>
 
@@ -429,6 +449,16 @@ li{
                         <!-- bulleted list inside the table row -->
                         <ul>
                           <li>standard_name water_temperature is not defined in Standard Name Table v79. Possible close match(es): [&#39;sea_water_temperature&#39;, &#39;air_temperature&#39;, &#39;snow_temperature&#39;]</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name pco2_dphase is not defined in Standard Name Table v79.</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name pco2 is not defined in Standard Name Table v79.</li>
                         </ul>
 
                         </td>
@@ -614,8 +644,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
-      <p align="center">For dataset /tmp/cc_erddap/mun_glider_data_pearldiver_labrador_sea_2019.nc</p>
-      <p align="center">Report generated 2023-03-22T02:18:57Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/mun_glider_unit_473_labrador_sea_2016.nc</p>
+      <p align="center">Report generated 2023-03-22T02:20:31Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -642,7 +672,7 @@ li{
         <a data-target="high-priority-table" href="#"> Highly Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">19</span>
+        | <span class="label label-danger label-as-badge">22</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -661,6 +691,30 @@ li{
 
               <tr>
                     </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;CO2_calphase&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;CO2_dphase&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
@@ -765,6 +819,18 @@ li{
 
               <tr>
                     <td>variable &#34;oxygen_saturation&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;pCO2&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -940,7 +1006,7 @@ li{
         <a data-target="medium-priority-table" href="#"> Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">4</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
       <div class="medium-priority-table collapse in">
         <table class="table">
@@ -993,26 +1059,6 @@ li{
                         <!-- bulleted list inside the table row -->
                         <ul>
                           <li>geospatial_bounds not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_lat_min not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_lat_max not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_lon_min not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_lon_max not present</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -1072,26 +1118,12 @@ li{
 
 
               <tr>
-                    <td>geospatial_lat_extents_match</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_lat_min/max attribute not found, CF-1.6 spec chapter 4.1</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
               <tr>
-                    <td>geospatial_lon_extents_match</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_lon_min/max attribute not found, CF-1.6 spec chapter 4.1</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
