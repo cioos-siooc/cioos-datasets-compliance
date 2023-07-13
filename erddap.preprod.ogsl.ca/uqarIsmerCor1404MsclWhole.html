@@ -242,7 +242,7 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
       <p align="center">For dataset /tmp/cc_erddap/uqarIsmerCor1404MsclWhole.nc</p>
-      <p align="center">Report generated 2023-07-12T02:30:23Z</p>
+      <p align="center">Report generated 2023-07-13T02:31:34Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -301,7 +301,17 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
+                          <li>units for magnetic_susceptibility, &#34;dimensionless 10^-5 SI&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
                           <li>units for P_wave_amplitude, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for fractional_porosity, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -311,17 +321,7 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units for magnetic_susceptibility, &#34;dimensionless 10^-5 SI&#34; are not recognized by UDUNITS</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
                           <li>units for impedance, &#34;x10^3 kg^2 s-1&#34; are not recognized by UDUNITS</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units for fractional_porosity, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
                         </ul>
 
                         </td>
@@ -629,7 +629,7 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
       <p align="center">For dataset /tmp/cc_erddap/uqarIsmerCor1404MsclWhole.nc</p>
-      <p align="center">Report generated 2023-07-12T02:30:23Z</p>
+      <p align="center">Report generated 2023-07-13T02:31:34Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -895,7 +895,7 @@ li{
         <a data-target="medium-priority-table" href="#"> Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">5</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
       <div class="medium-priority-table collapse in">
         <table class="table">
@@ -1012,26 +1012,7 @@ li{
 
 
               <tr>
-                    <td>geospatial_lat_extents_match</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Data for possible latitude variables ({&#39;latitude&#39;: -65.8776}) did not match geospatial_lat_min value (-45.71989822387695)</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>geospatial_lon_extents_match</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Data for possible longitude variables ({&#39;longitude&#39;: 88.0}) did not match geospatial_lon_max value (-65.50900268554688)</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
@@ -1041,14 +1022,12 @@ li{
 
 
               <tr>
-                    <td>time_coverage_extents_match</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Date time mismatch between time_coverage_end and actual time values 2014-02-27T00:00:00+00:00 (time_coverage_end) != 1970-01-01T00:00:00+00:00 (time[N])</li>
-                        </ul>
+                    </td>
+                  </tr>
 
-                        </td>
+
+              <tr>
+                    </td>
                   </tr>
 
 
