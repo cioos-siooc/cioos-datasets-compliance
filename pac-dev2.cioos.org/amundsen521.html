@@ -241,8 +241,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
-      <p align="center">For dataset /tmp/cc_erddap/uqarIsmerCor1404MsclSplitXrf.nc</p>
-      <p align="center">Report generated 2024-03-20T02:08:05Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/amundsen521.nc</p>
+      <p align="center">Report generated 2024-03-21T02:09:13Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -269,7 +269,7 @@ li{
         <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">2</span>
+        | <span class="label label-danger label-as-badge">1</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -301,12 +301,7 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units for magnetic_susceptibility, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units for section_number, &#34;unitless&#34; are not recognized by UDUNITS</li>
+                          <li>units attribute is required for platform_id when variable is not a dimensionless quantity</li>
                         </ul>
 
                         </td>
@@ -340,18 +335,6 @@ li{
 
               <tr>
                     </td>
-                  </tr>
-
-
-              <tr>
-                    <td>§4.4 Time Coordinate</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>analysis_date does not have correct time units</li>
-                        </ul>
-
-                        </td>
                   </tr>
 
 
@@ -388,7 +371,7 @@ li{
         <a data-target="medium-priority-table" href="#"> Warnings <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">3</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
       <div class="medium-priority-table collapse in">
         <table class="table">
@@ -405,42 +388,27 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute stationID:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute platform_name:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute marineRegion:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute filename:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute location:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute cruise_name:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute measurementID:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute cruise_number:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute sampleID:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute samplingProtocol:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute analysis_date:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute notes:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute station:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         </td>
@@ -486,173 +454,6 @@ li{
 
               <tr>
                     </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    <td>§9.1 Features and feature types</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>sea_floor_depth_below_sea_surface is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>section_number is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>section_depth is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>magnetic_susceptibility is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>average_reflectance is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>XRF_counts is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>XRF_live_time is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Fe is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Fe_error is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Rb is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Rb_error is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Sr is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Sr_error is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Zr is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Zr_error is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Mo is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Mo_error is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Ag is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Ag_error is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Cd is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Cd_error is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Sn is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Sn_error is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Sb is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Sb_error is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Ba is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Ba_error is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Hg is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Hg_error is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Pb is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Pb_error is not a profile, it is detected as a point</li>
-                        </ul>
-
-                        </td>
                   </tr>
 
 
@@ -718,8 +519,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
-      <p align="center">For dataset /tmp/cc_erddap/uqarIsmerCor1404MsclSplitXrf.nc</p>
-      <p align="center">Report generated 2024-03-20T02:08:05Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/amundsen521.nc</p>
+      <p align="center">Report generated 2024-03-21T02:09:13Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -746,7 +547,7 @@ li{
         <a data-target="high-priority-table" href="#"> Highly Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">31</span>
+        | <span class="label label-danger label-as-badge">19</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -769,7 +570,139 @@ li{
 
 
               <tr>
-                    <td>variable &#34;Ag&#34; missing the following attributes:</td>
+                    <td>variable &#34;Dens&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;Fluo&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;FreezT&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;N2&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;NO3&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;O2&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;Par&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;Pres&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SPar&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;Sal&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;Temp&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;Trans&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -786,24 +719,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;Ag_error&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Ba&#34; missing the following attributes:</td>
+                    <td>variable &#34;cast_number&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -825,414 +741,6 @@ li{
 
 
               <tr>
-                    <td>variable &#34;Ba_error&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Cd&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Cd_error&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Fe&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Fe_error&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Hg&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Hg_error&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Mo&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Mo_error&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Pb&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Pb_error&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Rb&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Rb_error&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Sb&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Sb_error&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Sn&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Sn_error&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Sr&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Sr_error&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;XRF_counts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;XRF_live_time&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Zr&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Zr_error&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;average_reflectance&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
                     </td>
                   </tr>
 
@@ -1248,7 +756,60 @@ li{
 
 
               <tr>
-                    <td>variable &#34;magnetic_susceptibility&#34; missing the following attributes:</td>
+                    <td>variable &#34;pH&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;platform_id&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;sigt&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;sigthe&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;svan&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -1265,45 +826,11 @@ li{
 
 
               <tr>
-                    <td>variable &#34;sea_floor_depth_below_sea_surface&#34; missing the following attributes:</td>
+                    <td>variable &#34;theta&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
                           <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;section_depth&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;section_number&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
                         </ul>
 
                         </td>
@@ -1328,7 +855,7 @@ li{
         <a data-target="medium-priority-table" href="#"> Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">2</span>
+        | <span class="label label-danger label-as-badge">1</span>
       </div>
       <div class="medium-priority-table collapse in">
         <table class="table">
@@ -1350,17 +877,7 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>naming_authority not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
                           <li>creator_url not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>creator_email not present</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -1380,27 +897,12 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>geospatial_vertical_min not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_vertical_max not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
                           <li>time_coverage_duration not present</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
                           <li>time_coverage_resolution not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_vertical_positive not present</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -1420,11 +922,6 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>publisher_email not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
                           <li>source not present</li>
                         </ul>
 
@@ -1433,14 +930,12 @@ li{
 
 
               <tr>
-                    <td>date_created_is_iso</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Attr date_created is not present</li>
-                        </ul>
+                    </td>
+                  </tr>
 
-                        </td>
+
+              <tr>
+                    </td>
                   </tr>
 
 
