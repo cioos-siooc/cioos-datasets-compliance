@@ -242,7 +242,7 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
       <p align="center">For dataset /tmp/cc_erddap/mpoCourantGaspeAdcp.nc</p>
-      <p align="center">Report generated 2024-03-29T02:08:50Z</p>
+      <p align="center">Report generated 2024-03-30T02:06:52Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -301,7 +301,12 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units for SDEV_2, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
+                          <li>units for PG_3BS, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for SDEV_3, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -311,12 +316,12 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units for nb_bins, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
+                          <li>units for PG_GOOD, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units for PG_GOOD, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
+                          <li>units for nb_bins, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -326,12 +331,7 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units for PG_3BS, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units for avg_amp, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
+                          <li>units for SDEV_2, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -341,7 +341,7 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units for SDEV_3, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
+                          <li>units for avg_amp, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
                         </ul>
 
                         </td>
@@ -540,7 +540,7 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
       <p align="center">For dataset /tmp/cc_erddap/mpoCourantGaspeAdcp.nc</p>
-      <p align="center">Report generated 2024-03-29T02:08:50Z</p>
+      <p align="center">Report generated 2024-03-30T02:06:52Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -910,7 +910,7 @@ li{
         <a data-target="medium-priority-table" href="#"> Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">2</span>
+        | <span class="label label-danger label-as-badge">3</span>
       </div>
       <div class="medium-priority-table collapse in">
         <table class="table">
@@ -1022,7 +1022,14 @@ li{
 
 
               <tr>
-                    </td>
+                    <td>geospatial_vertical_extents_match</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>geospatial_vertical_min != min(depth) values, 9.600000381469727 != 1.18</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
