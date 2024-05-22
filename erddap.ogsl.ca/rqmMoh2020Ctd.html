@@ -241,8 +241,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
-      <p align="center">For dataset /tmp/cc_erddap/IOS_CUR_Moorings.nc</p>
-      <p align="center">Report generated 2024-05-21T02:13:51Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/rqmMoh2020Ctd.nc</p>
+      <p align="center">Report generated 2024-05-22T02:14:38Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -269,7 +269,7 @@ li{
         <a data-target="high-priority-table" href="#"> Highly Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">8</span>
+        | <span class="label label-danger label-as-badge">4</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -292,7 +292,17 @@ li{
 
 
               <tr>
-                    <td>variable &#34;LCDAEL01&#34; missing the following attributes:</td>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;NTRA_01&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -304,11 +314,11 @@ li{
 
 
               <tr>
-                    <td>variable &#34;LCEWEL01&#34; missing the following attributes:</td>
+                    <td>variable &#34;OXYM&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>coverage_content_type</li>
+                          <li>coverage_content_type &#34;OXYM&#34; not in [&#39;auxiliaryInformation&#39;, &#39;coordinate&#39;, &#39;image&#39;, &#39;modelResult&#39;, &#39;physicalMeasurement&#39;, &#39;qualityInformation&#39;, &#39;referenceInformation&#39;, &#39;thematicClassification&#39;]</li>
                         </ul>
 
                         </td>
@@ -316,55 +326,27 @@ li{
 
 
               <tr>
-                    <td>variable &#34;LCNSEL01&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
               <tr>
-                    <td>variable &#34;LCSAEL01&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
               <tr>
-                    <td>variable &#34;LRZASP01&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
               <tr>
-                    <td>variable &#34;PRESPR01&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
               <tr>
-                    <td>variable &#34;TEMPPR01&#34; missing the following attributes:</td>
+                    <td>variable &#34;SPAR_01&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -386,11 +368,16 @@ li{
 
 
               <tr>
-                    <td>variable &#34;instrument_depth&#34; missing the following attributes:</td>
+                    <td>variable &#34;TRAN_01&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
                           <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
                         </ul>
 
                         </td>
@@ -412,6 +399,33 @@ li{
                   </tr>
 
 
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;stationID&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
               </tbody>
         </table>
       </div> <!-- .high-priority-table -->
@@ -421,6 +435,135 @@ li{
     <!-- Medium Priority -->
 
     <div class="col-md-12">
+      <div class="table-collapse">
+        <a data-target="medium-priority-table" href="#"> Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
+      </div>
+      <div class="failures">
+        | <span class="label label-danger label-as-badge">2</span>
+      </div>
+      <div class="medium-priority-table collapse in">
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="cname">Name</th>
+              <th class="ccorrection">Reasoning</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+                    <td>Global Attributes</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>acknowledgment/acknowledgement not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>naming_authority not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>comment not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>project not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>processing_level not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>geospatial_bounds not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>time_coverage_duration not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>time_coverage_resolution not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>geospatial_bounds_crs not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>geospatial_bounds_vertical_crs not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>publisher_name not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>publisher_url not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>publisher_email not present</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>date_created_is_iso</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attr date_created is not present</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              </tbody>
+
+        </table>
+      </div> <!-- .medium-priority-table -->
       </div> <!-- .col-md-12 -->
 
     <!-- Low Priority -->
@@ -479,8 +622,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
-      <p align="center">For dataset /tmp/cc_erddap/IOS_CUR_Moorings.nc</p>
-      <p align="center">Report generated 2024-05-21T02:13:51Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/rqmMoh2020Ctd.nc</p>
+      <p align="center">Report generated 2024-05-22T02:14:38Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -507,7 +650,7 @@ li{
         <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">1</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -535,19 +678,96 @@ li{
 
 
               <tr>
+                    <td>§3.1 Units</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for stationID, &#34;unitless&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
                     </td>
                   </tr>
 
 
               <tr>
-                    <td>§3.3 Standard Name</td>
+                    <td>§3.4 Ancillary Data</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>standard_name instrument_depth is not defined in Standard Name Table v79. Possible close match(es): [&#39;root_depth&#39;]</li>
+                          <li>QCFF_01 is not a variable in this dataset</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>QCFF_01 is not a variable in this dataset</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>QCFF_01 is not a variable in this dataset</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>QCFF_01 is not a variable in this dataset</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>QCFF_01 is not a variable in this dataset</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>QCFF_01 is not a variable in this dataset</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>QCFF_01 is not a variable in this dataset</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>QCFF_01 is not a variable in this dataset</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>QCFF_01 is not a variable in this dataset</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>QCFF_01 is not a variable in this dataset</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>QCFF_01 is not a variable in this dataset</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>QCFF_01 is not a variable in this dataset</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>QCFF_01 is not a variable in this dataset</li>
                         </ul>
 
                         </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
                   </tr>
 
 
@@ -609,7 +829,7 @@ li{
         <a data-target="medium-priority-table" href="#"> Warnings <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">3</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
       <div class="medium-priority-table collapse in">
         <table class="table">
@@ -631,67 +851,7 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute profile:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute filename:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute country:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute mission_id:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute scientist:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute project:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute agency:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute platform:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute instrument_type:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute instrument_model:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute instrument_serial_number:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute geographic_area:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute event_number:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute station_Name:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         </td>
@@ -737,53 +897,6 @@ li{
 
               <tr>
                     </td>
-                  </tr>
-
-
-              <tr>
-                    <td>§9.1 Features and feature types</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>PRESPR01 is not a timeseries, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>instrument_depth is not a timeseries, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>TEMPPR01 is not a timeseries, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>LCEWEL01 is not a timeseries, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>LCNSEL01 is not a timeseries, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>LRZASP01 is not a timeseries, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>LCSAEL01 is not a timeseries, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>LCDAEL01 is not a timeseries, it is detected as a point</li>
-                        </ul>
-
-                        </td>
                   </tr>
 
 
