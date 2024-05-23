@@ -242,7 +242,7 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
       <p align="center">For dataset /tmp/cc_erddap/adpu-nyt8.nc</p>
-      <p align="center">Report generated 2024-05-22T02:14:15Z</p>
+      <p align="center">Report generated 2024-05-23T02:15:56Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -269,18 +269,131 @@ li{
         <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-success label-as-badge">0</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
 
       <div class="high-priority-table collapse in">
         <table class="table">
+          <thead>
+            <tr>
+              <th class="cname">Name</th>
+              <th class="ccorrection">Reasoning</th>
+            </tr>
+          </thead>
           <tbody>
             <tr>
-              <td>All high priority checks passed!</th>
-            </tr>
-          </tbody>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§3.1 Units</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for salinity, &#34;PSU&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§3.4 Ancillary Data</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>sensor_depth_at_low_tide_m is not a variable in this dataset</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>dissolved_oxygen_percent_saturation is not a variable in this dataset</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>salinity_psu is not a variable in this dataset</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>sensor_depth_measured_m is not a variable in this dataset</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>temperature_degree_c is not a variable in this dataset</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              </tbody>
         </table>
-      </div>
+      </div> <!-- .high-priority-table -->
+
       </div> <!-- .col-md-12 -->
 
     <!-- Medium Priority -->
@@ -312,7 +425,22 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute waterbody_station:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute waterbody:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute station:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute sensor_type:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute sensor_serial_number:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -322,17 +450,32 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute sensor:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute string_configuration:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute deployment_start_date:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute depth_crosscheck_flag:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute deployment_end_date:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute qc_flag_dissolved_oxygen:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute qc_flag_salinity:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute qc_flag_sensor_depth_measured:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute qc_flag_temperature:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         </td>
@@ -379,12 +522,32 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>Dissolved_Oxygen is not a timeseries, it is detected as a point</li>
+                          <li>deployment_start_date is not a timeseries, it is detected as a point</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>sea_water_temperature is not a timeseries, it is detected as a point</li>
+                          <li>deployment_end_date is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>dissolved_oxygen is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>salinity is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>sensor_depth_measured is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>temperature is not a timeseries, it is detected as a point</li>
                         </ul>
 
                         </td>
@@ -454,7 +617,7 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
       <p align="center">For dataset /tmp/cc_erddap/adpu-nyt8.nc</p>
-      <p align="center">Report generated 2024-05-22T02:14:15Z</p>
+      <p align="center">Report generated 2024-05-23T02:15:56Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -481,7 +644,7 @@ li{
         <a data-target="high-priority-table" href="#"> Highly Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">2</span>
+        | <span class="label label-danger label-as-badge">6</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -504,7 +667,46 @@ li{
 
 
               <tr>
-                    <td>variable &#34;Dissolved_Oxygen&#34; missing the following attributes:</td>
+                    <td>variable &#34;deployment_end_date&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;deployment_start_date&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;dissolved_oxygen&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -526,12 +728,41 @@ li{
 
 
               <tr>
-                    </td>
+                    <td>variable &#34;salinity&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
               <tr>
-                    <td>variable &#34;sea_water_temperature&#34; missing the following attributes:</td>
+                    <td>variable &#34;sensor_depth_measured&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;temperature&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>

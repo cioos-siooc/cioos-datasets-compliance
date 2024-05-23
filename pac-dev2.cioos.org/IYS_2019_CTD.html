@@ -241,8 +241,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
-      <p align="center">For dataset /tmp/cc_erddap/x9dy-aai9.nc</p>
-      <p align="center">Report generated 2024-05-22T02:14:13Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/IYS_2019_CTD.nc</p>
+      <p align="center">Report generated 2024-05-23T02:13:37Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -269,18 +269,121 @@ li{
         <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-success label-as-badge">0</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
 
       <div class="high-priority-table collapse in">
         <table class="table">
+          <thead>
+            <tr>
+              <th class="cname">Name</th>
+              <th class="ccorrection">Reasoning</th>
+            </tr>
+          </thead>
           <tbody>
             <tr>
-              <td>All high priority checks passed!</th>
-            </tr>
-          </tbody>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§3.1 Units</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Units &#34;mg/L&#34; for variable dissolved_oxygen must be convertible to canonical units &#34;1&#34;</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Units &#34;None&#34; for variable pH must be convertible to canonical units &#34;1&#34;</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Units &#34;ppb&#34; for variable chlorophyll_flu must be convertible to canonical units &#34;kg m-3&#34;</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§3.3 Standard Name</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable HOUR</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable Minute</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              </tbody>
         </table>
-      </div>
+      </div> <!-- .high-priority-table -->
+
       </div> <!-- .col-md-12 -->
 
     <!-- Medium Priority -->
@@ -290,7 +393,7 @@ li{
         <a data-target="medium-priority-table" href="#"> Warnings <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">2</span>
+        | <span class="label label-danger label-as-badge">1</span>
       </div>
       <div class="medium-priority-table collapse in">
         <table class="table">
@@ -308,31 +411,26 @@ li{
 
 
               <tr>
-                    <td>§2.3 Naming Conventions</td>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§2.6 Attributes</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute waterbody_station:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute lease:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute sensor:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute deployment_start_date:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute deployment_end_date:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>§2.6.1 Conventions global attribute does not contain &#34;CF-1.6&#34;</li>
                         </ul>
 
                         </td>
@@ -356,38 +454,6 @@ li{
 
               <tr>
                     </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    <td>§9.1 Features and feature types</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Dissolved_Oxygen is not a timeseries, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>sea_water_temperature is not a timeseries, it is detected as a point</li>
-                        </ul>
-
-                        </td>
                   </tr>
 
 
@@ -453,8 +519,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
-      <p align="center">For dataset /tmp/cc_erddap/x9dy-aai9.nc</p>
-      <p align="center">Report generated 2024-05-22T02:14:13Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/IYS_2019_CTD.nc</p>
+      <p align="center">Report generated 2024-05-23T02:13:37Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -481,7 +547,7 @@ li{
         <a data-target="high-priority-table" href="#"> Highly Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">2</span>
+        | <span class="label label-danger label-as-badge">25</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -504,7 +570,280 @@ li{
 
 
               <tr>
-                    <td>variable &#34;Dissolved_Oxygen&#34; missing the following attributes:</td>
+                    <td>variable &#34;BOD5&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;Bot_Depth&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;DAY&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;EC25&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;HOUR&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;MONTH&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;Minute&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;YEAR&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;battery_voltage&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;chlorophyll_a&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;chlorophyll_flu&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;concentration_of_oxygen&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;cruise&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;dissolved_oxygen&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;dissolved_oxygen_saturation&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -526,12 +865,24 @@ li{
 
 
               <tr>
-                    </td>
+                    <td>variable &#34;pH&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
               <tr>
-                    <td>variable &#34;sea_water_temperature&#34; missing the following attributes:</td>
+                    <td>variable &#34;rinko_sea_water_practical_salinity&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -543,7 +894,113 @@ li{
 
 
               <tr>
+                    <td>variable &#34;rinko_sea_water_temperature&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;sea_water_density&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;sea_water_electrical_conductivity&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;sea_water_sigma_t&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;seabird_sea_water_practical_salinity&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;seabird_sea_water_temperature&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;station&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
                     </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;turbidity&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
@@ -560,7 +1017,7 @@ li{
         <a data-target="medium-priority-table" href="#"> Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">1</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
       <div class="medium-priority-table collapse in">
         <table class="table">
@@ -597,7 +1054,7 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>project not present</li>
+                          <li>creator_email not present</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -632,7 +1089,17 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
+                          <li>publisher_name not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
                           <li>publisher_url not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>publisher_email not present</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -645,7 +1112,14 @@ li{
 
 
               <tr>
-                    </td>
+                    <td>date_created_is_iso</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attr date_created is not present</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
