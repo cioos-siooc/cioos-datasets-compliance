@@ -242,7 +242,7 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
       <p align="center">For dataset /tmp/cc_erddap/mpoMaritimeStJohnCtdUpdated.nc</p>
-      <p align="center">Report generated 2024-08-19T02:18:35Z</p>
+      <p align="center">Report generated 2024-08-20T02:17:24Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -269,7 +269,7 @@ li{
         <a data-target="high-priority-table" href="#"> Highly Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">11</span>
+        | <span class="label label-danger label-as-badge">13</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -287,6 +287,23 @@ li{
                           <!-- bulleted list inside the table row -->
                         <ul>
                           <li>Conventions does not contain &#39;ACDD-1.3&#39;</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;CTD_num&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
                         </ul>
 
                         </td>
@@ -430,6 +447,23 @@ li{
 
               <tr>
                     </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;turbidity_num&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
@@ -640,7 +674,7 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
       <p align="center">For dataset /tmp/cc_erddap/mpoMaritimeStJohnCtdUpdated.nc</p>
-      <p align="center">Report generated 2024-08-19T02:18:35Z</p>
+      <p align="center">Report generated 2024-08-20T02:17:24Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -667,7 +701,7 @@ li{
         <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">1</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -695,7 +729,19 @@ li{
 
 
               <tr>
-                    </td>
+                    <td>§3.1 Units</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for turbidity_num, &#34;unitless&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for CTD_num, &#34;unitless&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
@@ -804,16 +850,6 @@ li{
                           <li>attribute record_id:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute CTD_num:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute turbidity_num:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
                         </td>
                   </tr>
 
@@ -915,22 +951,12 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>time is not a timeseries, it is detected as a point</li>
+                          <li>CTD_num is not a timeseries, it is detected as a point</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>longitude is not a timeseries, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>latitude is not a timeseries, it is detected as a point</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>depth is not a timeseries, it is detected as a point</li>
+                          <li>turbidity_num is not a timeseries, it is detected as a point</li>
                         </ul>
 
                         </td>
