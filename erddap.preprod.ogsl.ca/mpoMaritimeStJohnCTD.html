@@ -242,7 +242,7 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
       <p align="center">For dataset /tmp/cc_erddap/mpoMaritimeStJohnCTD.nc</p>
-      <p align="center">Report generated 2024-10-31T02:26:40Z</p>
+      <p align="center">Report generated 2024-11-01T02:29:21Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -269,7 +269,7 @@ li{
         <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">1</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -301,12 +301,12 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units for density_anomaly, &#34;kilograms per cubic meter&#34; are not recognized by UDUNITS</li>
+                          <li>units for CTD_num, &#34;unitless&#34; are not recognized by UDUNITS</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units for sea_water_turbidity, &#34;NTU&#34; are not recognized by UDUNITS</li>
+                          <li>units for turbidity_num, &#34;unitless&#34; are not recognized by UDUNITS</li>
                         </ul>
 
                         </td>
@@ -314,7 +314,19 @@ li{
 
 
               <tr>
-                    </td>
+                    <td>§3.3 Standard Name</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name sea_water_density_anomaly is not defined in Standard Name Table v85. Possible close match(es): [&#39;sea_water_density&#39;, &#39;sea_water_temperature_anomaly&#39;, &#39;sea_water_neutral_density&#39;]</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name sea_water_pressure_scaled is not defined in Standard Name Table v85. Possible close match(es): [&#39;sea_water_pressure&#39;, &#39;sea_water_pressure_at_sea_floor&#39;, &#39;sea_water_speed&#39;]</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
@@ -376,7 +388,7 @@ li{
         <a data-target="medium-priority-table" href="#"> Warnings <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">2</span>
+        | <span class="label label-danger label-as-badge">3</span>
       </div>
       <div class="medium-priority-table collapse in">
         <table class="table">
@@ -452,6 +464,73 @@ li{
                   </tr>
 
 
+              <tr>
+                    <td>§9.1 Features and feature types</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>sea_water_electrical_conductivity is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>sea_water_temperature is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>sea_water_pressure is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>sea_water_pressure_scaled is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>sea_floor_depth_below_sea_surface is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>sea_water_practical_salinity is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>speed_of_sound_in_sea_water is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>sea_water_specific_electrical_conductivity is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>density_anomaly is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>sea_water_turbidity is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>CTD_num is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>turbidity_num is not a timeseries, it is detected as a point</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
               </tbody>
 
         </table>
@@ -515,7 +594,7 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
       <p align="center">For dataset /tmp/cc_erddap/mpoMaritimeStJohnCTD.nc</p>
-      <p align="center">Report generated 2024-10-31T02:26:40Z</p>
+      <p align="center">Report generated 2024-11-01T02:29:21Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -542,7 +621,7 @@ li{
         <a data-target="high-priority-table" href="#"> Highly Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">12</span>
+        | <span class="label label-danger label-as-badge">13</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -555,12 +634,14 @@ li{
           </thead>
           <tbody>
             <tr>
-                    </td>
-                  </tr>
+                    <td>Global Attributes</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Conventions does not contain &#39;ACDD-1.3&#39;</li>
+                        </ul>
 
-
-              <tr>
-                    </td>
+                        </td>
                   </tr>
 
 
@@ -577,11 +658,6 @@ li{
                           <li>standard_name</li>
                         </ul>
 
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
                         </td>
                   </tr>
 
@@ -592,11 +668,6 @@ li{
                           <!-- bulleted list inside the table row -->
                         <ul>
                           <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
                         </ul>
 
                         </td>
@@ -674,11 +745,6 @@ li{
                           <li>coverage_content_type</li>
                         </ul>
 
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
                         </td>
                   </tr>
 
@@ -715,11 +781,6 @@ li{
                           <li>coverage_content_type</li>
                         </ul>
 
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
                         </td>
                   </tr>
 
@@ -752,11 +813,6 @@ li{
                         <!-- bulleted list inside the table row -->
                         <ul>
                           <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
                         </ul>
 
                         </td>
@@ -813,11 +869,6 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>creator_email not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
                           <li>project not present</li>
                         </ul>
 
@@ -853,7 +904,17 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
+                          <li>publisher_name not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
                           <li>publisher_url not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>publisher_email not present</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -870,7 +931,7 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>Datetime provided is not in a valid ISO 8601 format</li>
+                          <li>Attr date_created is not present</li>
                         </ul>
 
                         </td>
