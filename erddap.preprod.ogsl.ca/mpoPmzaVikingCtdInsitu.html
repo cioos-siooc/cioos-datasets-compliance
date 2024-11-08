@@ -242,7 +242,7 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
       <p align="center">For dataset /tmp/cc_erddap/mpoPmzaVikingCtdInsitu.nc</p>
-      <p align="center">Report generated 2024-11-07T02:24:22Z</p>
+      <p align="center">Report generated 2024-11-08T02:24:22Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -318,17 +318,12 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>Attribute long_name or/and standard_name is highly recommended for variable PRES_01</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Attribute long_name or/and standard_name is highly recommended for variable FLOR_01</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
                           <li>standard_name obs_lon is not defined in Standard Name Table v70.</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable PRES_01</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -339,6 +334,11 @@ li{
                         <!-- bulleted list inside the table row -->
                         <ul>
                           <li>standard_name obs_lat is not defined in Standard Name Table v70.</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable FLOR_01</li>
                         </ul>
 
                         </td>
@@ -542,7 +542,7 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
       <p align="center">For dataset /tmp/cc_erddap/mpoPmzaVikingCtdInsitu.nc</p>
-      <p align="center">Report generated 2024-11-07T02:24:22Z</p>
+      <p align="center">Report generated 2024-11-08T02:24:22Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -772,7 +772,7 @@ li{
         <a data-target="medium-priority-table" href="#"> Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">2</span>
+        | <span class="label label-danger label-as-badge">3</span>
       </div>
       <div class="medium-priority-table collapse in">
         <table class="table">
@@ -869,7 +869,19 @@ li{
 
 
               <tr>
-                    </td>
+                    <td>geospatial_vertical_extents_match</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>geospatial_vertical_min != min(depth) values, 0.019830960780382156 != -68.58783</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>geospatial_vertical_max != max(depth) values, 0.019830960780382156 != 307.18018</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
