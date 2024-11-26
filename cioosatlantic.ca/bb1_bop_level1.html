@@ -241,8 +241,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
-      <p align="center">For dataset /tmp/cc_erddap/eccc_opp_44490_west_bay_of_fundy.nc</p>
-      <p align="center">Report generated 2024-11-26T02:29:33Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/bb1_bop_level1.nc</p>
+      <p align="center">Report generated 2024-11-26T02:28:50Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -269,18 +269,111 @@ li{
         <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-success label-as-badge">0</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
 
       <div class="high-priority-table collapse in">
         <table class="table">
+          <thead>
+            <tr>
+              <th class="cname">Name</th>
+              <th class="ccorrection">Reasoning</th>
+            </tr>
+          </thead>
           <tbody>
             <tr>
-              <td>All high priority checks passed!</th>
-            </tr>
-          </tbody>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§3.1 Units</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for SATCTD7229_SALINITY, &#34;PSU&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units attribute is required for SATCTD7229_PRES when variable is not a dimensionless quantity</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for SATSLB0045_NITRATE_UM, &#34;uMolar&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§3.3 Standard Name</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name mass_concentration_of_nitrate_in_sea_water is not defined in Standard Name Table v27. Possible close match(es): [&#39;mole_concentration_of_nitrate_in_sea_water&#39;, &#39;mass_concentration_of_silicate_in_sea_water&#39;, &#39;mole_concentration_of_nitrite_in_sea_water&#39;]</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              </tbody>
         </table>
-      </div>
+      </div> <!-- .high-priority-table -->
+
       </div> <!-- .col-md-12 -->
 
     <!-- Medium Priority -->
@@ -290,7 +383,7 @@ li{
         <a data-target="medium-priority-table" href="#"> Warnings <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">2</span>
+        | <span class="label label-danger label-as-badge">1</span>
       </div>
       <div class="medium-priority-table collapse in">
         <table class="table">
@@ -303,41 +396,239 @@ li{
 
           <tbody>
             <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
                     <td>§2.3 Naming Conventions</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute station_name:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute sampling_day:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute stn_nam:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute GPRMC_EWHEM:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    <td>§2.6 Attributes</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
+                        <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>§2.6.1 Conventions global attribute does not contain &#34;CF-1.6&#34;</li>
+                          <li>attribute GPRMC_NAV:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute GPRMC_NSHEM:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute GPRMC_UNKNOWN:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute GPRMC_VLF_INSTRUMENT:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATHED0211_INSTRUMENT:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATHED0211_ES_wavelengths:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATHED0211_ES_wavelengths_data:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATCTD7229_INSTRUMENT:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATFL30338_REF_PHYTO_wavelengths:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATFL30338_REF_PHYTO_wavelengths_data:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATFL30338_PHYTO_wavelengths_data:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATFL30338_PHYTO_wavelengths:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATFL30338_DATEFIELD:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATFL30338_TIMEFIELD:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATFL30338_VLF_INSTRUMENT:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATSTX0016_INSTRUMENT:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATSTX0016_AUX_wavelengths:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATSTX0016_AUX_wavelengths_data:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATHSE0211_INSTRUMENT:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATHSE0211_ES_wavelengths:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATHSE0211_ES_wavelengths_data:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATVSF0113_GREEN_wavelengths:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATVSF0113_RED_wavelengths:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATVSF0113_BLUE_wavelengths:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATVSF0113_BLUE_wavelengths_data:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATVSF0113_GREEN_wavelengths_data:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATVSF0113_RED_wavelengths_data:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATACS0020_INSTRUMENT:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATACS0020_ACS_AREF_wavelengths:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATACS0020_ACS_AREF_wavelengths_data:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATACS0020_ACS_ASIG_wavelengths:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATACS0020_ACS_ASIG_wavelengths_data:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATACS0020_ACS_C_wavelengths:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATACS0020_ACS_C_wavelengths_data:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATACS0020_ACS_A_wavelengths:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATACS0020_ACS_A_wavelengths_data:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATACS0020_ACS_CSIG_wavelengths:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATACS0020_ACS_CSIG_wavelengths_data:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATACS0020_ACS_CREF_wavelengths:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>attribute SATACS0020_ACS_CREF_wavelengths_data:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
                   </tr>
 
 
@@ -423,8 +714,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
-      <p align="center">For dataset /tmp/cc_erddap/eccc_opp_44490_west_bay_of_fundy.nc</p>
-      <p align="center">Report generated 2024-11-26T02:29:33Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/bb1_bop_level1.nc</p>
+      <p align="center">Report generated 2024-11-26T02:28:50Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -451,7 +742,7 @@ li{
         <a data-target="high-priority-table" href="#"> Highly Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">61</span>
+        | <span class="label label-danger label-as-badge">62</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -474,7 +765,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;avg_air_temp_pst10mts&#34; missing the following attributes:</td>
+                    <td>variable &#34;GPRMC_Mag&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -491,7 +782,41 @@ li{
 
 
               <tr>
-                    <td>variable &#34;avg_air_temp_pst10mts_qa_summary&#34; missing the following attributes:</td>
+                    <td>variable &#34;GPRMC_Speed&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;GPRMC_True&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATACS0020_ACS_CHECKSUM&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -513,24 +838,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;avg_batry_volt_pst10mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_batry_volt_pst10mts_qa_summary&#34; missing the following attributes:</td>
+                    <td>variable &#34;SATACS0020_ACS_C_DARK&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -552,24 +860,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;avg_max_wave_hgt_pst20mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_max_wave_hgt_pst20mts_qa_summary&#34; missing the following attributes:</td>
+                    <td>variable &#34;SATACS0020_ACS_C_SIGNAL&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -591,24 +882,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;avg_max_wave_pd_pst20mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_max_wave_pd_pst20mts_qa_summary&#34; missing the following attributes:</td>
+                    <td>variable &#34;SATACS0020_ACS_DARK&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -630,24 +904,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;avg_mslp_pst10mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_mslp_pst10mts_data_flag&#34; missing the following attributes:</td>
+                    <td>variable &#34;SATACS0020_ACS_EXT_TEMP&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -669,24 +926,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;avg_sea_sfc_temp_pst10mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_sea_sfc_temp_pst10mts_qa_summary&#34; missing the following attributes:</td>
+                    <td>variable &#34;SATACS0020_ACS_HEAD&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -708,24 +948,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;avg_solr_panl_crnt_pst10mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_solr_panl_crnt_pst10mts_qa_summary&#34; missing the following attributes:</td>
+                    <td>variable &#34;SATACS0020_ACS_INT_TEMP&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -747,58 +970,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;avg_stn_pres_pst10mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_stn_pres_pst10mts_1&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_stn_pres_pst10mts_2&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_stn_pres_pst10mts_qa_summary&#34; missing the following attributes:</td>
+                    <td>variable &#34;SATACS0020_ACS_LEN&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -820,24 +992,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;avg_wave_hgt_pst20mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_wave_hgt_pst20mts_qa_summary&#34; missing the following attributes:</td>
+                    <td>variable &#34;SATACS0020_ACS_METER&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -859,24 +1014,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;avg_wave_pd_pst20mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_wave_pd_pst20mts_qa_summary&#34; missing the following attributes:</td>
+                    <td>variable &#34;SATACS0020_ACS_PAD&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -898,58 +1036,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;avg_wnd_dir_pst10mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_wnd_dir_pst10mts_1&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_wnd_dir_pst10mts_2&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_wnd_dir_pst10mts_qa_summary&#34; missing the following attributes:</td>
+                    <td>variable &#34;SATACS0020_ACS_PRESSURE&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -971,58 +1058,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;avg_wnd_spd_pst10mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_wnd_spd_pst10mts_1&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_wnd_spd_pst10mts_2&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_wnd_spd_pst10mts_qa_summary&#34; missing the following attributes:</td>
+                    <td>variable &#34;SATACS0020_ACS_RES&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -1044,24 +1080,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;avg_wtr_lvl_snsr_volt_pst10mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;avg_wtr_lvl_snsr_volt_pst10mts_qa_summary&#34; missing the following attributes:</td>
+                    <td>variable &#34;SATACS0020_ACS_RES_1&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -1083,24 +1102,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;crnt_buoy_lat&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;crnt_buoy_lat_qa_summary&#34; missing the following attributes:</td>
+                    <td>variable &#34;SATACS0020_ACS_SIG_DARK&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -1122,7 +1124,222 @@ li{
 
 
               <tr>
-                    <td>variable &#34;crnt_buoy_long&#34; missing the following attributes:</td>
+                    <td>variable &#34;SATACS0020_ACS_SN&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATACS0020_ACS_TIME&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATACS0020_ACS_TYPE&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATACS0020_ACS_WAVNUM&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATACS0020_AUX&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATACS0020_SN&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATCTD7229_COND&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATCTD7229_CRLF&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATCTD7229_O2&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATCTD7229_PRES&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATCTD7229_SALINITY&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -1139,7 +1356,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;crnt_buoy_long_qa_summary&#34; missing the following attributes:</td>
+                    <td>variable &#34;SATCTD7229_SN&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -1154,6 +1371,657 @@ li{
                         <!-- bulleted list inside the table row -->
                         <ul>
                           <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATCTD7229_T&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATCTD7229_pH&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATFL30338_CDOM&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATFL30338_REF_CDOM&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATFL30338_THERM&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHED0211_CHECK&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHED0211_CRLF&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHED0211_DARK_AVE&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHED0211_DARK_SAMP&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHED0211_FRAME&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHED0211_INTTIME&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHED0211_SAMPLE&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHED0211_SN&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHED0211_SPECTEMP&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHED0211_TIMER&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHSE0211_CHECK&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHSE0211_CRLF&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHSE0211_DARK_AVE&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHSE0211_DARK_SAMP&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHSE0211_FRAME&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHSE0211_INTTIME&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHSE0211_SAMPLE&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHSE0211_SN&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHSE0211_SPECTEMP&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHSE0211_TIMER&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATHSE0211_integration_time&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATSLB0045_NITRATE_MG&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATSLB0045_NITRATE_UM&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATSTX0016_Aux&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATSTX0016_CRLF&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATSTX0016_SN&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATSTX0016_SV&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SATSTX0016_T&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
                         </ul>
 
                         </td>
@@ -1171,497 +2039,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;max_avg_wnd_spd_pst10mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;max_avg_wnd_spd_pst10mts_1&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;max_avg_wnd_spd_pst10mts_2&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;max_avg_wnd_spd_pst10mts_qa_summary&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;msc_id&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;pk_wave_hgt_pst20mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;pk_wave_hgt_pst20mts_qa_summary&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;pk_wave_pd_pst20mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;pk_wave_pd_pst20mts_qa_summary&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;pres_tend_amt_pst3hrs&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;pres_tend_amt_pst3hrs_data_flag&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;pres_tend_char_pst3hrs&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;pres_tend_char_pst3hrs_data_flag&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;rpt_typ&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;sig_wave_hgt_pst20mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;sig_wave_hgt_pst20mts_qa_summary&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;sig_wave_pd_pst20mts&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;sig_wave_pd_pst20mts_qa_summary&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;stn_elev&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;stn_typ&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
                     </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;wmo_synop_id&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;wnd_snsr_vert_disp&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;wnd_snsr_vert_disp_1&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;wnd_snsr_vert_disp_2&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;wnd_snsr_vert_disp_qa_summary&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
                   </tr>
 
 
@@ -1678,7 +2056,7 @@ li{
         <a data-target="medium-priority-table" href="#"> Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">2</span>
+        | <span class="label label-danger label-as-badge">4</span>
       </div>
       <div class="medium-priority-table collapse in">
         <table class="table">
@@ -1700,37 +2078,7 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>naming_authority not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
                           <li>comment not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>creator_name not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>creator_url not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>creator_email not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>project not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>processing_level not present</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -1773,26 +2121,6 @@ li{
                           <li>geospatial_bounds_vertical_crs not present</li>
                         </ul>
 
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>publisher_name not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>publisher_url not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>publisher_email not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>source not present</li>
-                        </ul>
-
                         </td>
                   </tr>
 
@@ -1810,12 +2138,36 @@ li{
 
 
               <tr>
-                    </td>
+                    <td>geospatial_lat_extents_match</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Data for possible latitude variables ({}) did not match geospatial_lat_min value (44.6936835)</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Data for possible latitude variables ({}) did not match geospatial_lat_max value (44.693843333333334)</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
               <tr>
-                    </td>
+                    <td>geospatial_lon_extents_match</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Data for possible longitude variables ({}) did not match geospatial_lon_min value (63.642344)</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Data for possible longitude variables ({}) did not match geospatial_lon_max value (63.642681333333336)</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
