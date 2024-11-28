@@ -241,8 +241,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
-      <p align="center">For dataset /tmp/cc_erddap/uqtrLampsilisPhysicoChimie.nc</p>
-      <p align="center">Report generated 2024-11-28T02:30:07Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/uqarIsmerHypoxie2021Geochimie.nc</p>
+      <p align="center">Report generated 2024-11-28T02:29:10Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -269,7 +269,7 @@ li{
         <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">1</span>
+        | <span class="label label-danger label-as-badge">3</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -301,12 +301,69 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units for Pressure, &#34;MMHg&#34; are not recognized by UDUNITS</li>
+                          <li>units for SUVA, &#34;L mgC-1 m-1&#34; are not recognized by UDUNITS</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units for Turbidity, &#34;FNU&#34; are not recognized by UDUNITS</li>
+                          <li>Units &#34;ppm&#34; for variable PCO2_immersed_probe must be convertible to canonical units &#34;Pa&#34;</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Units &#34;ppm&#34; for variable PCO2_Licor must be convertible to canonical units &#34;Pa&#34;</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for SR, &#34;unitless&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for delta13C, &#34;per mill of VSMOW&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Units &#34;µmol kg-1&#34; for variable DIC must be convertible to canonical units &#34;mol m-3&#34;</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for delta18O, &#34;per mill of VSMOW&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for HIX, &#34;unitless&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for FI, &#34;unitless&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for BIX, &#34;unitless&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for ratio_N2_Ar, &#34;dimensionless&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§3.3 Standard Name</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name isotope_ratio_of_18o_to_16o_in_sea_water_excluding_solutes_and_solids is not defined in Standard Name Table v84. Possible close match(es): [&#39;isotope_ratio_of_18O_to_16O_in_sea_water_excluding_solutes_and_solids&#39;, &#39;isotope_ratio_of_17O_to_16O_in_sea_water_excluding_solutes_and_solids&#39;]</li>
                         </ul>
 
                         </td>
@@ -335,6 +392,18 @@ li{
 
               <tr>
                     </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§4.4 Time Coordinate</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>time_local does not have correct time units</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
@@ -393,27 +462,17 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute Station_ID:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute stationID:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute Cruise:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute recordID:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>attribute Sector:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute Type:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>attribute Waterbodies:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
+                          <li>attribute time_local:_Encoding should begin with a letter and be composed of letters, digits, and underscores</li>
                         </ul>
 
                         </td>
@@ -463,61 +522,141 @@ li{
 
 
               <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
                     <td>§9.1 Features and feature types</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>Distance is not a timeseries, it is detected as a point</li>
+                          <li>PSAL is not a profile, it is detected as a point</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>Temperature is not a timeseries, it is detected as a point</li>
+                          <li>TE90 is not a profile, it is detected as a point</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>Pressure is not a timeseries, it is detected as a point</li>
+                          <li>OXYM is not a profile, it is detected as a point</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>DissolvedOxygenPercent is not a timeseries, it is detected as a point</li>
+                          <li>pH_CTD is not a profile, it is detected as a point</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>DissolvedOxygen is not a timeseries, it is detected as a point</li>
+                          <li>DOC is not a profile, it is detected as a point</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>Conductivity is not a timeseries, it is detected as a point</li>
+                          <li>DOC_stdev is not a profile, it is detected as a point</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>pH is not a timeseries, it is detected as a point</li>
+                          <li>CDOM375 is not a profile, it is detected as a point</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>Turbidity is not a timeseries, it is detected as a point</li>
+                          <li>CDOM254 is not a profile, it is detected as a point</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>Chla is not a timeseries, it is detected as a point</li>
+                          <li>SUVA is not a profile, it is detected as a point</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>N_Total is not a timeseries, it is detected as a point</li>
+                          <li>SR is not a profile, it is detected as a point</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>P_Total is not a timeseries, it is detected as a point</li>
+                          <li>HIX is not a profile, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>FI is not a profile, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>BIX is not a profile, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>DIC is not a profile, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>TA is not a profile, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>PCO2_Licor is not a profile, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>PCO2Licor_Stdev is not a profile, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>PCO2_immersed_probe is not a profile, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>PCO2_immersed_probe_Stdev is not a profile, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>pH_t_in_situ is not a profile, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>delta18O is not a profile, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>delta13C is not a profile, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>N2_28 is not a profile, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>N2_29 is not a profile, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Ar is not a profile, it is detected as a point</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>ratio_N2_Ar is not a profile, it is detected as a point</li>
                         </ul>
 
                         </td>
@@ -586,8 +725,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 5.0.2</p>
-      <p align="center">For dataset /tmp/cc_erddap/uqtrLampsilisPhysicoChimie.nc</p>
-      <p align="center">Report generated 2024-11-28T02:30:07Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/uqarIsmerHypoxie2021Geochimie.nc</p>
+      <p align="center">Report generated 2024-11-28T02:29:10Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -614,7 +753,7 @@ li{
         <a data-target="high-priority-table" href="#"> Highly Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">12</span>
+        | <span class="label label-danger label-as-badge">27</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -639,55 +778,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;Chla&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Conductivity&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;DissolvedOxygen&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;DissolvedOxygenPercent&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Distance&#34; missing the following attributes:</td>
+                    <td>variable &#34;Ar&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -704,7 +795,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;N_Total&#34; missing the following attributes:</td>
+                    <td>variable &#34;BIX&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -721,7 +812,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;P_Total&#34; missing the following attributes:</td>
+                    <td>variable &#34;CDOM254&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -738,7 +829,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;Pressure&#34; missing the following attributes:</td>
+                    <td>variable &#34;CDOM375&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -755,7 +846,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;Temperature&#34; missing the following attributes:</td>
+                    <td>variable &#34;DIC&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -767,7 +858,7 @@ li{
 
 
               <tr>
-                    <td>variable &#34;Turbidity&#34; missing the following attributes:</td>
+                    <td>variable &#34;DOC&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
@@ -777,6 +868,260 @@ li{
                         <!-- bulleted list inside the table row -->
                         <ul>
                           <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;DOC_stdev&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;FI&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;HIX&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;N2_28&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;N2_29&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;OXYM&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;PCO2Licor_Stdev&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;PCO2_Licor&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;PCO2_immersed_probe&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;PCO2_immersed_probe_Stdev&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;PSAL&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SR&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SUVA&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;TA&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;TE90&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;delta13C&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;delta18O&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
                         </ul>
 
                         </td>
@@ -794,11 +1139,45 @@ li{
 
 
               <tr>
-                    <td>variable &#34;pH&#34; missing the following attributes:</td>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;pH_CTD&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
                           <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;pH_t_in_situ&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;ratio_N2_Ar&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
                         </ul>
 
                         </td>
@@ -875,27 +1254,12 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>geospatial_vertical_min not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_vertical_max not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
                           <li>time_coverage_duration not present</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
                           <li>time_coverage_resolution not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_vertical_positive not present</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -941,6 +1305,11 @@ li{
                         </ul>
 
                         </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
                   </tr>
 
 
